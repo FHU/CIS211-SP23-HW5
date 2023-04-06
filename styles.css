@@ -1,0 +1,56 @@
+:root {
+    --light-brown:#F3EED9;
+    --dark-brown: #824936;
+    --dark: #222C2A;
+}
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.container {
+
+    max-width: 1128px;
+    outline: 3px solid red;
+    margin: 0 auto;
+
+}
+
+.intro {
+    background-color: var(--light-brown);
+    min-height: 660px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+}
+
+.intro h1 {
+    font-size:60px;
+    font-family: 'Playfair Display';
+    font-weight: 900;
+    color: var(--dark-brown);
+}
+
+.intro h2 {
+    font-family: Roboto, sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: .8em;
+}
+
+.two p {
+    font-family: Roboto;
+    font-size: 21px;
+    font-weight: 400;
+}
+
+.columns {
+    display: flex;
+    gap: 6rem;
+}
