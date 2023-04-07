@@ -11,11 +11,9 @@
 }
 
 .container {
-
     max-width: 1128px;
     outline: 3px solid red;
-    margin: 0 auto;
-
+    margin-inline: auto;
 }
 
 .intro {
@@ -53,4 +51,9 @@
 .columns {
     display: flex;
     gap: 6rem;
+}
+
+footer ul li a svg {
+    width: 40px;
+    fill:var(--dark-brown );
 }
